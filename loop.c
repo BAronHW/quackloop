@@ -10,11 +10,11 @@ void animate(){
         "    __\n<(o )___\n (    \"  )\n  `----' \n",
         "    __\n<(o )___\n (    \"  ) Quack!\n  `----' \n",
         "    __\n<(o )___\n (    \"  )\n  `----' \n",
-        "    __\n<(o )___\n (    \"  ) Stop touching my laptop\n  `----' \n",
+        "    __\n<(o )___\n (    \"  ) Hi May\n  `----' \n",
         "    __\n<(o )___\n (    \"  )\n  `----' \n",
         };
     int index = 0;
-    int num_of_frames = 5;
+    int num_of_frames = sizeof(frame_array)/sizeof(frame_array[0]);
     while (1)
     {
         clearTerminal();
